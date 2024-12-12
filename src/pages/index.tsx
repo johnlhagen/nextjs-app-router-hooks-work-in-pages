@@ -10,7 +10,7 @@ export default () => {
     console.log('pagesRouter', pagesRouter);
     return <ul>
         <li>/src/pages/index</li>
-        <li>searchParams: {appSearchParams}</li>
+        <li>searchParams: {appSearchParams?.toString()}</li>
         <li>appPathName: {appPathname}</li>
     </ul>
 }
